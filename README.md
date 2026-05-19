@@ -21,7 +21,6 @@
 
 Άνοιξε το Terminal ή Command Prompt και εκτέλεσε:
 
-```bash
 pip install streamlit pandas matplotlib numpy reportlab
 
 **## 3️⃣ Λήψη του Project
