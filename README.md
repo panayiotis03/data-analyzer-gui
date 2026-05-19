@@ -18,14 +18,14 @@
 pip install streamlit pandas matplotlib numpy reportlab
 
 # 3️⃣ Λήψη του Project
-**# Κατέβασε ή κάνε clone το repository και μπες στον φάκελο
+Κατέβασε ή κάνε clone το repository και μπες στον φάκελο
 cd path/to/suggestions_analyzer
 
 # 4️⃣ Εκκίνηση της εφαρμογής
-**Τρέξε την εφαρμογή με την εντολή:
-streamlit run suggestions_analyzer.py\
+Τρέξε την εφαρμογή με την εντολή:
+streamlit run suggestions_analyzer.py
 
-# 5️⃣ Άνοιγμα στο browser**
-**Αφού γίνει η εκκίνηση, η εφαρμογή θα ανοίξει αυτόματα στο:
+# 5️⃣ Άνοιγμα στο browser
+Αφού γίνει η εκκίνηση, η εφαρμογή θα ανοίξει αυτόματα στο:
 http://localhost:8501
 
