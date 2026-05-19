@@ -8,30 +8,24 @@
 
 # Οδηγίες Εγκατάστασης & Εκτέλεσης
 
-**1️⃣ Προαπαιτούμενα
-
+# 1️⃣ Προαπαιτούμενα
 Πριν ξεκινήσεις, βεβαιώσου ότι έχεις εγκατεστημένα:
-
 - Python 3.8 ή νεότερη έκδοση
 - pip (Python package manager)
 
----
-
-**2️⃣ Εγκατάσταση βιβλιοθηκών
-
+# 2️⃣ Εγκατάσταση βιβλιοθηκών
 Άνοιξε το Terminal ή Command Prompt και εκτέλεσε:
-
 pip install streamlit pandas matplotlib numpy reportlab
 
-**## 3️⃣ Λήψη του Project
+# 3️⃣ Λήψη του Project
 **# Κατέβασε ή κάνε clone το repository και μπες στον φάκελο
 cd path/to/suggestions_analyzer
 
-**## 4️⃣ Εκκίνηση της εφαρμογής
+# 4️⃣ Εκκίνηση της εφαρμογής
 **Τρέξε την εφαρμογή με την εντολή:
 streamlit run suggestions_analyzer.py\
 
-**## 5️⃣ Άνοιγμα στο browser**
+# 5️⃣ Άνοιγμα στο browser**
 **Αφού γίνει η εκκίνηση, η εφαρμογή θα ανοίξει αυτόματα στο:
 http://localhost:8501
 
