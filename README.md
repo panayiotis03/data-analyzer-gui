@@ -29,3 +29,21 @@ streamlit run suggestions_analyzer.py
 Αφού γίνει η εκκίνηση, η εφαρμογή θα ανοίξει αυτόματα στο:
 http://localhost:8501
 
+# Δομή Αρχείων Δεδομένων
+Η αναμενόμενη δομή φακέλων για τη λειτουργία του συστήματος:
+
+data/
+├── Tofis/
+│   ├── sep.csv, oct.csv, nov.csv, dec.csv, jan.csv     ← Sensor data
+│   ├── TOFIS_Sep_feedbacks.csv                          ← Feedback data
+│   └── TOFIS_Oct_feedbacks.csv  
+├── drakos/
+│   ├── drakos front/  →  sep.csv, oct.csv  ...
+│   ├── drakos back/   →  sep.csv, oct.csv  ...
+│   ├── DRAKOS_Front_Oct_feedbacks.csv
+│   └── DRAKOS_Back_Nov_feedbacks.csv  ...
+└── tasos/
+    ├── TASOS_front_left/  →  sep.csv, oct.csv  ...
+    ├── TASOS_back_right/  →  sep.csv, oct.csv  ...
+    ├── TASOS_Front_Left_Oct_feedbacks.csv
+    └── TASOS_Back_Right_Jan_feedbacks.csv  ...
